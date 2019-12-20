@@ -1,0 +1,51 @@
+{
+  "name": "boon-bot",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.9.2",
+    "concurrently": "^5.0.0",
+    "dialogflow": "^0.12.2",
+    "express": "^4.17.1",
+    "firebase": "^7.1.0",
+    "google-auth-library": "^5.5.1",
+    "moment": "^2.24.0",
+    "react": "^16.9.0",
+    "react-big-calendar": "^0.23.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-chartjs-2": "^2.8.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.1.1",
+    "uuid": "^3.3.3",
+    "zerorpc": "^0.9.8"
+  },
+  "scripts": {
+    "server": "node src/server/AuthenticationAPI.js",
+    "client": "react-scripts start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

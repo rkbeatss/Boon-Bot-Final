@@ -1,0 +1,102 @@
+.App {
+  background-color: #001135;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.helloText {
+  font-size: 575%;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 70px;
+}
+
+.joinText {
+  font-size: 220%;
+  color: white;
+  position: absolute;
+  top: 260px;
+  left: 70px;
+}
+
+.red {
+  color: red;
+}
+
+.landingBotPic {
+  float: right;
+  position: absolute;
+  top: 5px;
+  left: 525px;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.page-title {
+  color: #fdd017;
+  left: 630px;
+  position: absolute;
+}
+
+h6 {
+  color: white;
+}
+
+.Footer {
+  background-color: #000d27 !important;
+}
+
+.NavItem {
+  color: white !important;
+}
+
+.TalkButton {
+  background-color: #ffffff !important;
+  position: absolute;
+  top: 420px;
+  left: 70px;
+  color: #000d27 !important;
+  width: 8em;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+p span {
+  display: block;
+}
+.Card {
+  float: right;
+  right: 60px;
+  top: 105px;
+  width: 24rem;
+  height: 33rem;
+  border-radius: 1rem !important;
+  padding: 30px;
+}
+
+.about-us {
+  color: white;
+  left: 150px;
+  position: absolute;
+}

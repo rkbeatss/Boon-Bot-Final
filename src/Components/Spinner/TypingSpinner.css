@@ -1,0 +1,137 @@
+/* CSS Modified from Mohammed GawiSh from Code Pen */
+.bubble-chat {
+	background-color: #E6E7EC;
+	width: 70px;
+	height: 40px;
+	border-radius: 20px !important;
+	margin: 0 auto;
+  position: absolute;
+  right:5px;
+  display:flex;
+  justify-content: center;
+}
+
+.container-circle {
+	width: 100px;
+	position: relative;
+  margin: 0 auto;
+}
+
+.circle {
+	height: 8px;
+	width: 8px;
+	margin: 0 5px;
+	background-color: #B6B5BA;
+	border-radius: 50%;
+	display: inline-block;
+  position: relative;
+	top: 10px;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+#circle1 {
+  -webkit-animation-name: circle1;
+}
+
+#circle2 {
+  -webkit-animation-name: circle2;
+}
+
+#circle3 {
+  -webkit-animation-name: circle3;
+}
+
+#circle1 {
+  animation-name: circle1;
+}
+
+#circle2 {
+  animation-name: circle2;
+}
+
+#circle3 {
+  animation-name: circle3;
+}
+
+.cc1 {
+	background-color: #9E9DA2;
+}
+
+
+@-webkit-keyframes circle1 {
+  0% {
+    top: 10px;
+  }
+  15% {
+    top: 0px;
+  }
+  25% {
+    top: 10px;
+  }
+}
+
+@-webkit-keyframes circle2 {
+  10% {
+    top: 10px;
+  }
+  25% {
+    top: 0px;
+  }
+  35% {
+    top: 10px;
+  }
+}
+
+@-webkit-keyframes circle3 {
+  15% {
+    top: 10px;
+  }
+  30% {
+    top: 0px;
+  }
+  40% {
+    top: 10px;
+  }
+}
+
+@keyframes circle1 {
+  0% {
+    top: 10px;
+  }
+  15% {
+    top: 0px;
+  }
+  25% {
+    top: 10px;
+  }
+}
+
+@keyframes circle2 {
+  10% {
+    top: 10px;
+  }
+  25% {
+    top: 0px;
+  }
+  35% {
+    top: 10px;
+  }
+}
+
+@keyframes circle3 {
+  15% {
+    top: 10px;
+  }
+  30% {
+    top: 0px;
+  }
+  40% {
+    top: 10px;
+  }
+}

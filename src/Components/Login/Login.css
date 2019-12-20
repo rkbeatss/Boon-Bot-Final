@@ -1,0 +1,31 @@
+.Button {
+  background-color: rgb(40, 117, 189) !important;
+  width: 18rem;
+  margin: 2px;
+}
+.input {
+  margin-bottom: 2rem !important;
+}
+.promptSignUp {
+  top: 340px;
+  position: absolute;
+  font-size: 18px;
+}
+.promptCancel {
+  top: 340px;
+  left: 40px;
+}
+.signup {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem !important;
+  top: 80px;
+  left: 550px;
+  right: 550px;
+}

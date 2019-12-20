@@ -1,0 +1,9 @@
+export const LANDING = "/";
+export const ABOUT = "/about";
+export const CONTACT = "/contact";
+export const CHAT = "/chat";
+export const SIGN_UP = "/signup";
+export const SIGN_IN = "/signin";
+export const ACCOUNT = "/account";
+export const INTERNAL_CHAT = "/internalchat";
+export const INTERNAL_OVERVIEW = "/internaloverview";

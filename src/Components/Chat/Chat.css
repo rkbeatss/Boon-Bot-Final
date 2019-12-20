@@ -1,0 +1,52 @@
+* {
+  border-radius: 0px !important;
+}
+.boonContainer {
+  height: 32.4rem;
+  align-items: center;
+  background-color: white;
+}
+.chatContainer {
+  height: 30rem;
+  overflow: scroll;
+}
+.userContainer {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px !important;
+  padding: 10px;
+  margin: 10px 0;
+}
+.userContainer img {
+  float: left;
+  max-width: 60px;
+  widows: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+.inputField {
+  box-sizing: border-box;
+}
+.button {
+  background-color: #063e9e !important;
+  color: #ffffff !important;
+}
+.messages {
+  list-style: none;
+}
+
+.boonbot-gif {
+  top: 100px;
+  position: absolute;
+  left: -1px;
+}
+
+.Container {
+  top: 120px;
+  position: absolute;
+  left: 155px;
+}
